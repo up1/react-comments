@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import './App.css';
 
-import CommentList from './comment/CommentList';
+import CommentListContainer from './comment/CommentListContainer';
 
 class App extends Component {
   render() {
     return (
       <div>
-        <CommentList/>
+        <CommentListContainer/>
       </div>
     );
   }
